@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header2{
+    width: 100%;
+    
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 20px;
+}
+.header h2{
+    font-size: 22px;
+
+}
+.renewal form{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.renewal input,button{
+    padding: 10px;
+}
+.renewal input{
+    width: 20%;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid black;
+}
+.renewal button{
+    width: 10%;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    background: #DF4040;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+    outline: none;
+    border: none;
+    margin-left: 55px;
+}
+.renewal input:focus{
+    border: 1px solid #DF4040;
+    outline: none;
+}
+
+.message {
+    text-align: center; 
+    font-size: 1.2em;   
+    color: #4CAF50;     
+    margin-top: 20px;  
+  }

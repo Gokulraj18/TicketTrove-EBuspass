@@ -1,0 +1,63 @@
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 550px;
+    border: 2px solid #ccc;
+    
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.title h3{
+    margin-top: 15px;
+}
+.content{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    width: 90%;
+}
+
+.content .photo img{
+    width: 100px;
+    height: 100px;
+}
+
+.foot{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+}
+.unorder ul{
+    padding: 5px;
+    list-style-type: none;
+}
+.unorder ul li{
+    padding: 5px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
